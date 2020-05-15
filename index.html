@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/scorekeeper.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<h1><span class="h11">Score</span> <span class="h12">Keeper</span></h1>
+		<div class="well">
+			<div class="score">
+				<h1 class="text-center">P1 <span id="p1Display" class="display">0</span> - <span id="p2Display" class="display">0</span> P2</h1>
+				<h3 id="winner" class="text-center winner-display"></h3>
+			</div>
+
+			<div class="col-md-6 well-like">
+				<div class="score-game-over">
+					<p>Select Winning score:
+					<input type="number" value="0"></p>
+					<p>Playing to: <span>0</span></p>
+					<p>Default playing score: 10</p>
+				</div>
+			</div>
+			<div class="col-md-6 well-like">
+				<div class="play-buttons">
+					<button class="btn btn-success form-control" id="p1b">Player One</button>
+					<button class="btn btn-success form-control" id="p2b">Player Two</button>
+					<button class="btn btn-success form-control" id="resetScores">Start all over</button>
+				</div>
+			</div>
+		</div>
+		<div class="foot-text">
+			<p>With <i class="fa fa-heart-o"></i> by <a href="http://github.com/withadamu"> Adamu Abubakar</a></p>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/scorekeeper.js"></script>
+</body>
+</html>

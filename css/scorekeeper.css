@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	color: #333;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 700;
+}
+
+.h11 {
+	position: relative;
+}
+
+.h11::after {
+	content: "";
+	position: absolute;
+	top: 44px;
+	left: 0;
+	width: 90%;
+	height: 5px;
+	background-color: #ff6600;
+}
+
+.h12 {
+	background: #ff6600;
+	color: #fff;
+	padding: 10px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.btn-success,
+.btn-success:visited,
+.btn-success:active,
+.btn-success:focus {
+	margin-bottom: 10px;
+	background: #333;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.btn-success:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+.display {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+.score h1 {
+	font-size: 70px;
+	padding: 20px;
+	font-weight: normal;
+	text-transform: initial;
+	color: #333;
+	background-color: #fff;
+}
+
+@media(max-width: 680px) {
+	.score h1 {
+		font-size: 50px;
+	}
+}
+
+@media(max-width: 380px) {
+	.score h1 {
+		font-size: 30px;
+	}
+}
+
+.well {
+	padding: 20px 0;
+	margin-top: 50px;
+	min-height: 500px;
+	background-color: #fff;
+	border: 3px solid #ff6600;
+	color: #333;
+}
+
+.score {
+	padding: 50px 0;
+}
+
+.winner {
+	color: #fff;
+	background: #ff6600;
+}
+
+.winner-display {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+input {
+	border: 1px solid #333;
+	border-radius: 7px;
+	padding: 7px;
+	width: 100px;
+	text-align: center;
+}
+
+.foot-text p {
+	text-align: center;
+	color: #333;
+}
+
+.foot-text a {
+	color: #333;
+}
